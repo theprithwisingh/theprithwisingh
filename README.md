@@ -37,11 +37,19 @@
 
 <br>
 
-<a href="https://github.com/YOUR_USERNAME?tab=followers">
-<img src="https://img.shields.io/github/followers/YOUR_USERNAME?style=for-the-badge"/>
+<div align="center">
+
+<a href="https://github.com/theprithwisingh?tab=followers">
+<img alt="GitHub followers"
+src="https://img.shields.io/github/followers/theprithwisingh?style=for-the-badge&logo=github&label=Followers&color=181717"/>
 </a>
 
-<img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&style=for-the-badge"/>
+<a href="https://github.com/theprithwisingh">
+<img alt="Profile Views"
+src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&label=Profile+Views&color=0e75b6"/>
+</a>
+
+</div>
 
 </div>
 
