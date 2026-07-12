@@ -1,0 +1,54 @@
+name: Update Featured Projects
+
+on:
+  workflow_dispatch:
+  push:
+  schedule:
+    - cron: "0 */6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/github-script@v7
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const fs = require("fs");
+
+            const { data: repos } = await github.rest.repos.listForUser({
+              username: "theprithwisingh",
+              sort: "updated",
+              direction: "desc",
+              per_page: 6
+            });
+
+            let html = `<p align="center">\n`;
+
+            for (const repo of repos) {
+              html += `
+              <a href="${repo.html_url}">
+                <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=${repo.name}&theme=github_dark&hide_border=true" />
+              </a>\n`;
+            }
+
+            html += `</p>`;
+
+            const readme = fs.readFileSync("README.md", "utf8");
+
+            const updated = readme.replace(
+              /<!--START_SECTION:projects-->[\s\S]*<!--END_SECTION:projects-->/,
+              `<!--START_SECTION:projects-->\n${html}\n<!--END_SECTION:projects-->`
+            );
+
+            fs.writeFileSync("README.md", updated);
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update featured projects"
