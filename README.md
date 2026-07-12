@@ -68,38 +68,8 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 
 # 🚀 Featured Projects
 
-<!-- PROJECTS:START -->
-## 🚀 Featured Projects
-
-<p align="center">
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_1&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_2&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_3&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_4&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_5&theme=github_dark&hide_border=true" />
-</a>
-
-<a href="https://github.com/theprithwisingh?tab=repositories">
-  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_6&theme=github_dark&hide_border=true" />
-</a>
-
-</p>
-<!-- PROJECTS:END -->
-
+<!--START_SECTION:projects-->
+<!--END_SECTION:projects-->
 ---
 
 # 📈 GitHub Stats
