@@ -2,8 +2,9 @@
 
 # Hi 👋 I'm Prithwi
 
-### AI Full Stack Engineer • Open Source Contributor • Building Production Systems
-
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&width=1000&lines=AI+Full+Stack+Engineer+•+Open+Source+Contributor+•+Building+Production+Systems" />
+</p>
 <p align="center">
   <a href="https://xyz.com">
     <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-0A66C2?style=for-the-badge" />
