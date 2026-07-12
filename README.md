@@ -4,7 +4,36 @@
 
 ### AI Full Stack Engineer • Open Source Contributor • Building Production Systems
 
-<img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=25&duration=3000&pause=1000&center=true&vCenter=true&width=900&lines=AI+Full+Stack+Engineer;Building+Production+Systems;Open+Source+Contributor;Next.js+%7C+TypeScript+%7C+AI;Always+Learning+New+Things" />
+<p align="center">
+  <a href="https://xyz.com">
+    <img src="https://img.shields.io/badge/🌐_Portfolio-Visit-0A66C2?style=for-the-badge" />
+  </a>
+
+  <a href="https://github.com/theprithwisingh">
+    <img src="https://img.shields.io/badge/GitHub-theprithwisingh-181717?style=for-the-badge&logo=github" />
+  </a>
+
+  <a href="https://x.com/theprithwisingh">
+    <img src="https://img.shields.io/badge/X-@theprithwisingh-000000?style=for-the-badge&logo=x" />
+  </a>
+
+  <a href="https://instagram.com/theprithwisingh">
+    <img src="https://img.shields.io/badge/Instagram-@theprithwisingh-E4405F?style=for-the-badge&logo=instagram&logoColor=white" />
+  </a>
+
+  <a href="https://medium.com/@prithwisingh77">
+    <img src="https://img.shields.io/badge/Medium-Articles-12100E?style=for-the-badge&logo=medium" />
+  </a>
+
+  <a href="https://www.linkedin.com/in/prithwi-singh-8817811ab/">
+    <img src="https://img.shields.io/badge/LinkedIn-Prithwi_Singh-0A66C2?style=for-the-badge&logo=linkedin" />
+  </a>
+
+  <a href="mailto:theprithwisingh@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+
+</p>
 
 <br>
 
