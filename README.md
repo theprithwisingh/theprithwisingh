@@ -69,117 +69,35 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 # 🚀 Featured Projects
 
 <!-- PROJECTS:START -->
-import { graphql } from "@octokit/graphql";
-import fs from "fs";
-
-const github = graphql.defaults({
-  headers: {
-    authorization: `Bearer ${process.env.GITHUB_TOKEN}`,
-  },
-});
-
-const USERNAME = "theprithwisingh";
-
-const data = await github(`
-{
-  user(login: "${USERNAME}") {
-    repositories(
-      first: 6
-      orderBy: {
-        field: UPDATED_AT,
-        direction: DESC
-      }
-      ownerAffiliations: OWNER
-      isFork: false
-    ) {
-      nodes {
-        name
-        description
-        url
-        homepageUrl
-        stargazerCount
-        updatedAt
-
-        repositoryTopics(first:10){
-          nodes{
-            topic{
-              name
-            }
-          }
-        }
-      }
-    }
-  }
-}
-`);
-
-const repos = data.user.repositories.nodes;
-
-const badges = (topics) => {
-  return topics
-    .slice(0,5)
-    .map(
-      (t) =>
-        `<img src="https://img.shields.io/badge/${encodeURIComponent(
-          t.topic.name
-        )}-black?style=flat-square">`
-    )
-    .join(" ");
-};
-
-let html = `## 🚀 Featured Projects
-
-<table>
-`;
-
-for (let i = 0; i < repos.length; i += 2) {
-  html += "<tr>";
-
-  for (let j = i; j < i + 2; j++) {
-    if (!repos[j]) break;
-
-    const repo = repos[j];
-
-    html += `
-<td width="50%" valign="top">
-
-### <a href="${repo.url}">${repo.name}</a>
-
-${repo.description ?? "No description"}
-
-<p>
-
-${badges(repo.repositoryTopics.nodes)}
-
-</p>
-
-⭐ ${repo.stargazerCount}
-
-</td>
-`;
-  }
-
-  html += "</tr>";
-}
-
-html += `
-</table>
+## 🚀 Featured Projects
 
 <p align="center">
 
-<a href="https://github.com/${USERNAME}?tab=repositories">
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_1&theme=github_dark&hide_border=true" />
+</a>
 
-<img src="https://img.shields.io/badge/ALL_REPOSITORIES-→-181717?style=for-the-badge&logo=github">
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_2&theme=github_dark&hide_border=true" />
+</a>
 
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_3&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_4&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_5&theme=github_dark&hide_border=true" />
+</a>
+
+<a href="https://github.com/theprithwisingh?tab=repositories">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=REPO_NAME_6&theme=github_dark&hide_border=true" />
 </a>
 
 </p>
-`;
-
-fs.writeFileSync("README.md", html);
-
-console.log("README Generated");
-
 <!-- PROJECTS:END -->
 
 ---
