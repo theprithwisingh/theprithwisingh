@@ -71,12 +71,12 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 <!--START_SECTION:projects-->
 <p align="center">
 
-  <a href="https://github.com/theprithwisingh/excalidraw-clone">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=excalidraw-clone&theme=github_dark&hide_border=true" />
-  </a>
-
   <a href="https://github.com/theprithwisingh/theprithwisingh">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=theprithwisingh&theme=github_dark&hide_border=true" />
+  </a>
+
+  <a href="https://github.com/theprithwisingh/excalidraw-clone">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=excalidraw-clone&theme=github_dark&hide_border=true" />
   </a>
 
   <a href="https://github.com/theprithwisingh/Notion-clone">
