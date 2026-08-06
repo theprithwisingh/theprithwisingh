@@ -71,12 +71,16 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 <!--START_SECTION:projects-->
 <p align="center">
 
-  <a href="https://github.com/theprithwisingh/theprithwisingh">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=theprithwisingh&theme=github_dark&hide_border=true" />
+  <a href="https://github.com/theprithwisingh/excalidraw-app">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=excalidraw-app&theme=github_dark&hide_border=true" />
   </a>
 
   <a href="https://github.com/theprithwisingh/canvas-app">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=canvas-app&theme=github_dark&hide_border=true" />
+  </a>
+
+  <a href="https://github.com/theprithwisingh/theprithwisingh">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=theprithwisingh&theme=github_dark&hide_border=true" />
   </a>
 
   <a href="https://github.com/theprithwisingh/chat-app">
@@ -89,10 +93,6 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 
   <a href="https://github.com/theprithwisingh/CRO">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=CRO&theme=github_dark&hide_border=true" />
-  </a>
-
-  <a href="https://github.com/theprithwisingh/Mini-LinkedIn-for-Developers">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=Mini-LinkedIn-for-Developers&theme=github_dark&hide_border=true" />
   </a>
 </p>
 <!--END_SECTION:projects-->
