@@ -71,16 +71,16 @@ src="https://komarev.com/ghpvc/?username=theprithwisingh&style=for-the-badge&lab
 <!--START_SECTION:projects-->
 <p align="center">
 
+  <a href="https://github.com/theprithwisingh/theprithwisingh">
+    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=theprithwisingh&theme=github_dark&hide_border=true" />
+  </a>
+
   <a href="https://github.com/theprithwisingh/prithwisingh-portfolio">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=prithwisingh-portfolio&theme=github_dark&hide_border=true" />
   </a>
 
   <a href="https://github.com/theprithwisingh/project-ctx-engine">
     <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=project-ctx-engine&theme=github_dark&hide_border=true" />
-  </a>
-
-  <a href="https://github.com/theprithwisingh/theprithwisingh">
-    <img width="49%" src="https://github-readme-stats.vercel.app/api/pin/?username=theprithwisingh&repo=theprithwisingh&theme=github_dark&hide_border=true" />
   </a>
 
   <a href="https://github.com/theprithwisingh/excalidraw-app">
